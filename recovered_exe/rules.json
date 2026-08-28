@@ -1,0 +1,56 @@
+[
+  {
+    "name": "水弹选择界面-确认",
+    "template": "confirm_button.png",
+    "reference_width": 2560,
+    "detect_region": [0.650, 0.560, 0.810, 0.790],
+    "click_point": [0.730, 0.690],
+    "threshold": 0.82,
+    "priority": 70,
+    "rearm_after": 1.5
+  },
+  {
+    "name": "结算第一名-再来一局",
+    "template": "rank_first.png",
+    "reference_width": 2560,
+    "detect_region": [0.580, 0.000, 0.990, 0.380],
+    "click_point": [0.875, 0.930],
+    "threshold": 0.82,
+    "jiaozi_delta_wan": 5.85,
+    "priority": 80,
+    "rearm_after": 2.0
+  },
+  {
+    "name": "结算第二名-再来一局",
+    "template": "rank_second.png",
+    "reference_width": 2560,
+    "detect_region": [0.580, 0.000, 0.990, 0.380],
+    "click_point": [0.875, 0.930],
+    "threshold": 0.82,
+    "jiaozi_delta_wan": 4.68,
+    "priority": 80,
+    "rearm_after": 2.0
+  },
+  {
+    "name": "有强开时选择强开",
+    "template": "force_open_button.png",
+    "reference_width": 2277,
+    "detect_region": [0.735, 0.575, 0.865, 0.755],
+    "click_point": [0.790, 0.665],
+    "threshold": 0.82,
+    "priority": 100,
+    "rearm_after": 1.5
+  },
+  {
+    "name": "出牌界面-选择最左牌",
+    "template": "play_button.png",
+    "reference_width": 2560,
+    "detect_region": [0.575, 0.575, 0.690, 0.755],
+    "click_point": [0.275, 0.925],
+    "followup_click_point": [0.625, 0.665],
+    "followup_delay": 0.35,
+    "threshold": 0.82,
+    "priority": 10,
+    "rearm_after": 1.5
+  }
+]
